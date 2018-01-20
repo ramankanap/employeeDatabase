@@ -19,6 +19,6 @@ A simple program for manipulating data about employees to show how to use Postgr
 Overwrite `local all all peer` with `local all all md5`  
 `service postgresql reload`
 ### 4. Change user and password in the program:
-In employeeDatabase.py overwrite `user='yourrole', password='yourpassword'` with your values.
+In employeeDatabase.py change `user='yourrole', password='yourpassword'` accordingly.
 ### 5. Execute the program:
 `python3 employeeDatabase.py`
